@@ -19,10 +19,10 @@ The medalpaca/medical_meadow_health_advice ([dataset](https://huggingface.co/dat
   * Classification confusion matrix
   * Mis-classified sequences have been also explored
 
-![before-peft.png](./images/before-peft.PNG)
+![before-peft.png](./images/before-peft.png)
 
 Classification confusion matrix of GPT semantic classification model before fine-tuning 
 
-![before-peft.png](./images/after-peft.PNG)
+![before-peft.png](./images/after-peft.png)
 
 Classification confusion matrix of GPT semantic classification model after PEFT
