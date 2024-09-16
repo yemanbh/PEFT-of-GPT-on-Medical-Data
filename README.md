@@ -7,9 +7,10 @@ it is not advice, weak advice or strong adice. The problem was framed as a seque
 The medalpaca/medical_meadow_health_advice ([dataset](https://huggingface.co/datasets/medalpaca/medical_meadow_health_advice)) dataset in Hugging face was used to fine-tune the model and evaluate its performance performance.
 
 ![pipeline.png](./images/pipeline.png)
-Figure: Schematics of the workflow
 
-- Model: GPT2 model was due to its small number of parameters, so that it will be easy to fine-tune it in smaller GPU memory available from Udacity workspace.
+                  Figure 1: Schematics of the workflow
+
+- Model:GPT2 model was due to its small number of parameters, so that it will be easy to fine-tune it in smaller GPU memory available from Udacity workspace.
 
 - Fine-tuning dataset: As described above the medalpaca/medical_meadow_health_advice dataset in Hugging face was used to fine-tune and evaluate the performance of the model. The dataset was split into training (60%) and test set (30%).
 
@@ -27,8 +28,8 @@ Figure: Schematics of the workflow
 
 ![before-peft.png](./images/before-peft.png)
 
-Classification confusion matrix of GPT semantic classification model before fine-tuning 
+                  Figure 2: Classification confusion matrix of GPT semantic classification model before fine-tuning 
 
 ![before-peft.png](./images/after-peft.png)
 
-Classification confusion matrix of GPT semantic classification model after PEFT
+                  Figure 3: Classification confusion matrix of GPT semantic classification model after PEFT
