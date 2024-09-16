@@ -6,6 +6,9 @@ to classify medical health advice. The idea is given a sequence or text, classif
 it is not advice, weak advice or strong adice. The problem was framed as a sequence classification. 
 The medalpaca/medical_meadow_health_advice ([dataset](https://huggingface.co/datasets/medalpaca/medical_meadow_health_advice)) dataset in Hugging face was used to fine-tune the model and evaluate its performance performance.
 
+![pipeline.png](./images/pipeline.png)
+Figure: Schematics of the workflow
+
 - Model: GPT2 model was due to its small number of parameters, so that it will be easy to fine-tune it in smaller GPU memory available from Udacity workspace.
 
 - Fine-tuning dataset: As described above the medalpaca/medical_meadow_health_advice dataset in Hugging face was used to fine-tune and evaluate the performance of the model. The dataset was split into training (60%) and test set (30%).
@@ -18,6 +21,9 @@ The medalpaca/medical_meadow_health_advice ([dataset](https://huggingface.co/dat
   * Classification F1-score
   * Classification confusion matrix
   * Mis-classified sequences have been also explored
+  
+
+## Performance evaluation before and after fine-tuning
 
 ![before-peft.png](./images/before-peft.png)
 
